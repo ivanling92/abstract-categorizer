@@ -12,7 +12,7 @@ tracks_keywords = {
     "Nanodevices": ["electronics", "photonics", "phononics", "biodevices", "micro-nano systems", "flexible devices"],
     "Systems and Applications": ["sensors", "integration", "information", "communication", "machine learning"],
     "Sustainable Technology": ["alternative fabrication", "circular processes", "energy", "environmental monitoring"],
-    "Error":["Irrelevant", "Unknown Format", "Wrong Language"]
+    "Error":["Irrelevant", "Unknown Format", "Wrong Language", "This is a Joke"]
 }
 
 
@@ -28,6 +28,7 @@ Each of the tracks and sub-tracks will be classified as follow:
 {}
 
 I need you to return in the following format: Track, Sub-Track. E.g. Micro-nanofabrication and Characterization, Design
+If the paper is irrelevant or theres an error, use Error and the available error categories specified.
 """.format(str(tracks_keywords))
 
 
